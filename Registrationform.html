@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title><strong><b>REGISTRATION FORM</b></strong></title>
+        <link rel="stylesheet" hrel="Formstyle.css">
+    </head>
+    <body>
+        <div class="registration-form">
+            <h1>REGISTRATION FORM</h1>
+
+            <form action="/action_page.php">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Lasr Name: </label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="Email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="dob">Date Of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br>
+                <label for="phonenumber">Phone Number:</label><br>
+                <input type="tel" id="phonenumber" name="phonenumber" required><br>
+                <label for="password">password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <label for="gender">gender:</label><br>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option><br>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other's</option>
+                </select><br>
+                <label for="district">District:</label><br>
+                <select id="district" name="district" required>
+                    <option value="">Select district</option><br>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Narayangang">Narayangang</option>
+                    <option value="Chattogram">Chattogram</option>
+                </select>
+                <div class="registration-form">
+                    <input type="checkbox" id="termsAndConditions" name="termsAndConditions" required>
+                    <label for="termsAndConditions">I agree to the Terms and Conditions</label> <br><br>
+
+                <input type="submit" class="register-button" value="REGISTRATION">
+        </div>
+    </body>
+</html>
